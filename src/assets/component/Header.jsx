@@ -12,7 +12,7 @@ const Header = () => {
 
     return (
         <>
-            <div className="">
+            <div className=" sticky top-0 z-50 shadow-xl">
                 <div className='bg-black '>
                     <div className="text-white flex text-sm  sm:text-md gap-10 w-screen justify-end -translate-x-20 md:-translate-x-40 lg:-translate-x-60">
                         <a href='mailto:aryanlimited@gmail.com' className=""><span>Email:</span> <span>aryanlimited@gmail.com</span> </a>

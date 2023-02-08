@@ -10,8 +10,10 @@ const service = () => {
 
     return (
         <>
-        <div className=" w-full overflow-hidden">
-
+        {/* <div className="fixed w-full h-full bg-black bg-opacity-40"></div> */}
+        <div className=" w-full overflow-hidden md:p-16 p-4 bg-[url('')] bg-cover ">
+            {/* img link: https://png.pngtree.com/background/20210714/original/pngtree-sunset-cityscape-night-scene-with-office-building-background-picture-image_1207016.jpg */}
+            
             <div className="flex justify-center">
                 <div className="underline text-2xl p-8">Our Services</div>
             </div>
