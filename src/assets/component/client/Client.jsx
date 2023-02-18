@@ -12,13 +12,18 @@ const Client = () => {
         },[])
 
   return (
-    <>
-
+    <>      
+              
+            <div  className="flex flex-col items-start   p-16 bg-[url('images/client-banner1.jpg')]  bg-[length:100%_100%]" >
+                  
+                    <div   className="underline  text-xl md:text-2xl lg:text-4xl translate-x-72 p-8 text-white font-extrabold">Our <span className='text-green-400'>Client </span></div>
+            </div>
             <div className="w-full overflow-hidden  md:p-16 p-4">
 
 
-            <div data-aos="fade-down" className="flex justify-center lg:mt-8 ">
-                    <div  className="underline text-xl md:text-2xl lg:text-3xl p-8 text-indigo-400 font-extrabold">Clients</div>
+            <div data-aos="fade-down" className="flex flex-col items-center mb-16" >
+                    <div className=" text-lg md:text-xl lg:text-2xl p-8 text-indigo-300 font-extrabold">If need any info about our <span className='text-red-400'>Client! </span></div>
+
                 </div>
 
 

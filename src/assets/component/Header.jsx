@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link,NavLink } from 'react-router-dom';
 
 const Header = () => {
 
@@ -38,12 +39,12 @@ const Header = () => {
                         <div className="bg-green-500">
 
                             <ul className={`${hamburger ? "": "h-0"} transition flex flex-col lg:flex-row items-center   gap-5 xl:gap-10`}>
-                                <li><a href="">Home</a></li>
-                                <li><a href="">Services</a></li>
-                                <li><a href="">Clients</a></li>
-                                <li><a href="">Arcade</a></li>
-                                <li><a href="">About</a></li>
-                                <li><a href="">Contact</a></li>
+                                <li><NavLink className={({isActive})=> {return isActive?'border-b-2 border-blue-400 text-blue-500':''}} to="/home">Home</NavLink></li>
+                                <li><NavLink className={({isActive})=> {return isActive?'border-b-2 border-blue-400 text-blue-500':''}} to="/services">Services</NavLink></li>
+                                <li><NavLink className={({isActive})=> {return isActive?'border-b-2 border-blue-400 text-blue-500':''}} to="/client">Clients</NavLink></li>
+                                <li><NavLink className={({isActive})=> {return isActive?'border-b-2 border-blue-400 text-blue-500':''}} to="">Arcade</NavLink></li>
+                                <li><NavLink className={({isActive})=> {return isActive?'border-b-2 border-blue-400 text-blue-500':''}} to="/about">About</NavLink></li>
+                                <li><NavLink className={({isActive})=> {return isActive?'border-b-2 border-blue-400 text-blue-500':''}} to="/contact">Contact</NavLink></li>
                                 <li><a href="">Login</a></li>
                             </ul>
                         </div>
@@ -53,6 +54,7 @@ const Header = () => {
                 </div>
 
             </div>
+         
 
 
         </>
