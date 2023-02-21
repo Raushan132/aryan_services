@@ -8,7 +8,7 @@ import 'aos/dist/aos.css'
 const Client = () => {
 
       useEffect(()=>{
-            Aos.init({duration: 1000})
+            Aos.init({duration: 500})
         },[])
 
   return (
@@ -16,7 +16,7 @@ const Client = () => {
               
             <div  className="flex flex-col items-start   p-16 bg-[url('images/client-banner1.jpg')]  bg-[length:100%_100%]" >
                   
-                    <div   className="underline  text-xl md:text-2xl lg:text-4xl translate-x-72 p-8 text-white font-extrabold">Our <span className='text-green-400'>Client </span></div>
+                    <div   className="underline  text-xl md:text-2xl lg:text-4xl lg:translate-x-72 p-8 text-white font-extrabold">Our <span className='text-green-400'>Client </span></div>
             </div>
             <div className="w-full overflow-hidden  md:p-16 p-4">
 
@@ -52,11 +52,11 @@ const Client = () => {
             </div>
 
 
-            <div className="overflow-hidden mx-16">
+            <div className=" mx-4 md:mx-16">
 
                 <div className="font-bold text-red-500 underline my-16">Our Some Satisfied Client's:-</div>
-                <div className="grid  lg:grid-cols-2 xl:grid-cols-3 gap-5 ">
-                    <div className=" flex flex-col justify-center items-center border-2 w-[350px] p-4 lg:p-8 gap-5 hover:border-black">
+                <div className="grid  md:grid-cols-2 xl:grid-cols-3 gap-5 ">
+                    <div className=" flex flex-col justify-center items-center border-2 w-[300px] md:w-[280px] lg:w-[350px] p-4 lg:p-8 gap-5 hover:border-black">
                           <div className="m-4"><img className='w-[100px]' src="http://aryanserviceslimited.com/wp-content/uploads/2021/10/sail.png" alt="" /></div>
                           <div className="">
                           Steel Authority of India Limited is a central public sector 
@@ -70,7 +70,7 @@ const Client = () => {
 
                     {/* copy content below */}
 
-                    <div className=" flex flex-col justify-center items-center border-2 w-[350px] p-8 gap-5">
+                    <div className=" flex flex-col justify-center items-center border-2 w-[300px] lg:w-[350px] p-8 gap-5">
                           <div className="m-4"><img className='w-[100px]' src="http://aryanserviceslimited.com/wp-content/uploads/2021/10/sail.png" alt="" /></div>
                           <div className="">
                           Steel Authority of India Limited is a central public sector 
@@ -80,7 +80,7 @@ const Client = () => {
                           Incorporated on 24 January 1973, SAIL has 60,766 employees.
                           </div>
                     </div>
-                    <div className=" flex flex-col justify-center items-center border-2 w-[350px] p-8 gap-5">
+                    <div className=" flex flex-col justify-center items-center border-2 w-[300px] lg:w-[350px] p-8 gap-5">
                           <div className="m-4"><img className='w-[100px]' src="http://aryanserviceslimited.com/wp-content/uploads/2021/10/sail.png" alt="" /></div>
                           <div className="">
                           Steel Authority of India Limited is a central public sector 
@@ -90,7 +90,7 @@ const Client = () => {
                           Incorporated on 24 January 1973, SAIL has 60,766 employees.
                           </div>
                     </div>
-                    <div className=" flex flex-col justify-center items-center border-2 w-[350px] p-8 gap-5">
+                    <div className=" flex flex-col justify-center items-center border-2 w-[300px] lg:w-[350px] p-8 gap-5">
                           <div className="m-4"><img className='w-[100px]' src="http://aryanserviceslimited.com/wp-content/uploads/2021/10/sail.png" alt="" /></div>
                           <div className="">
                           Steel Authority of India Limited is a central public sector 
@@ -100,7 +100,7 @@ const Client = () => {
                           Incorporated on 24 January 1973, SAIL has 60,766 employees.
                           </div>
                     </div>
-                    <div className=" flex flex-col justify-center items-center border-2 w-[350px] p-8 gap-5">
+                    <div className=" flex flex-col justify-center items-center border-2 w-[300px] lg:w-[350px] p-8 gap-5">
                           <div className="m-4"><img className='w-[100px]' src="http://aryanserviceslimited.com/wp-content/uploads/2021/10/sail.png" alt="" /></div>
                           <div className="">
                           Steel Authority of India Limited is a central public sector 

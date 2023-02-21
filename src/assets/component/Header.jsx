@@ -8,14 +8,18 @@ const Header = () => {
 
     const handleHamClick = () => {
         setHamburger(!hamburger);
-        console.log(hamburger)
+        // console.log(hamburger)
+    }
+    const handleLinkHamClick=()=>{
+        setHamburger(false)
+        document.body.scrollTop(0)
     }
 
     return (
         <>
             <div className=" sticky top-0 z-50 shadow-xl">
                 <div className='bg-black '>
-                    <div className="text-white flex text-sm  sm:text-md gap-10 w-screen justify-end -translate-x-20 md:-translate-x-40 lg:-translate-x-60">
+                    <div className="text-white flex text-[12px]  sm:text-md lg:text-lg gap-10 w-screen justify-center md:justify-end  md:-translate-x-40 lg:-translate-x-60">
                         <a href='mailto:aryanlimited@gmail.com' className=""><span>Email:</span> <span>aryanlimited@gmail.com</span> </a>
                         <a href='tel:+919431363109' className=""><span>Tel:</span> <span>+919431363109</span> </a>
                     </div>
@@ -36,16 +40,17 @@ const Header = () => {
                         </div>
 
 
-                        <div className="bg-green-500">
+                        <div className="bg-gradient-to-tr from-green-500 to-green-600 ">
 
                             <ul className={`${hamburger ? "": "h-0"} transition flex flex-col lg:flex-row items-center   gap-5 xl:gap-10`}>
-                                <li><NavLink className={({isActive})=> {return isActive?'border-b-2 border-blue-400 text-blue-500':''}} to="/home">Home</NavLink></li>
-                                <li><NavLink className={({isActive})=> {return isActive?'border-b-2 border-blue-400 text-blue-500':''}} to="/services">Services</NavLink></li>
-                                <li><NavLink className={({isActive})=> {return isActive?'border-b-2 border-blue-400 text-blue-500':''}} to="/client">Clients</NavLink></li>
-                                <li><NavLink className={({isActive})=> {return isActive?'border-b-2 border-blue-400 text-blue-500':''}} to="">Arcade</NavLink></li>
-                                <li><NavLink className={({isActive})=> {return isActive?'border-b-2 border-blue-400 text-blue-500':''}} to="/about">About</NavLink></li>
-                                <li><NavLink className={({isActive})=> {return isActive?'border-b-2 border-blue-400 text-blue-500':''}} to="/contact">Contact</NavLink></li>
-                                <li><a href="">Login</a></li>
+                                <li><NavLink className={({isActive})=> {return isActive?'border-b-2 border-blue-400 text-blue-500':''}} onClick={handleLinkHamClick} to="/home">Home</NavLink></li>
+                                <li><NavLink className={({isActive})=> {return isActive?'border-b-2 border-blue-400 text-blue-500':''}} onClick={handleLinkHamClick} to="/services">Services</NavLink></li>
+                                <li><NavLink className={({isActive})=> {return isActive?'border-b-2 border-blue-400 text-blue-500':''}} onClick={handleLinkHamClick} to="/client">Clients</NavLink></li>
+                                <li><NavLink className={({isActive})=> {return isActive?'border-b-2 border-blue-400 text-blue-500':''}} onClick={handleLinkHamClick} to="/career">Career</NavLink></li>
+                                <li><NavLink className={({isActive})=> {return isActive?'border-b-2 border-blue-400 text-blue-500':''}} onClick={handleLinkHamClick} to="/about">About</NavLink></li>
+                                <li><NavLink className={({isActive})=> {return isActive?'border-b-2 border-blue-400 text-blue-500':''}} onClick={handleLinkHamClick} to="/contact">Contact</NavLink></li>
+                                <li><NavLink className={({isActive})=> {return isActive?'border-b-2 border-blue-400 text-blue-500':''}} onClick={handleLinkHamClick} to="/Login">Login</NavLink></li>
+                                
                             </ul>
                         </div>
 

@@ -13,24 +13,24 @@ const Contact = () => {
         <>
 
             <div className="flex flex-col items-start  p-16 bg-[url('images/contact_banner.webp')] bg-[length:100%_80%] bg-no-repeat lg:bg-[length:100%_100%]" >
-                <div className="underline  text-xl md:text-2xl lg:3xl xl:text-4xl xl:translate-x-72 p-8 text-indigo-400 font-extrabold">Contact Us</div>
-            </div>
+            <div className=" text-xl md:text-2xl lg:3xl xl:text-4xl xl:translate-x-72 p-8 text-green-400 drop-shadow-md font-extrabold">Contact  <span className='text-red-400'>Us</span></div>
+          </div>
             <div className="w-full overflow-hidden  md:p-16 p-4">
 
 
-                <div data-aos="fade-down" className="flex flex-col items-center mb-16" >
-                    <div className=" text-lg md:text-xl lg:text-2xl p-8 text-indigo-300 font-extrabold">If need any info please <span className='text-red-400'>contact us! </span></div>
+                <div  className="flex flex-col items-center mb-16" >
+                    <div className=" text-lg md:text-xl lg:text-2xl p-8 text-indigo-300 font-extrabold">If need any info, please <span className='text-red-400'>contact us! </span></div>
 
                 </div>
 
-                <div className="mx-16">
+                <div className="">
 
-                    <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3  ">
+                    <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3 mx-16 ">
                         <div className="">
                             <div className="text-xl font-bold">Head Office Address:</div>
                             <div className="flex  gap-3">
                                 <i className="text-red-400 translate-y-2 fa-solid fa-location-dot" />
-                                <div className="w-1/2 md:w-full">Aryan Services Limited, Vijay Bhawan, 2nd Floor, Radium Road, Ashok Path, Ranchi 834001</div>
+                                <div className=" md:w-full">Aryan Services Limited, Vijay Bhawan, 2nd Floor, Radium Road, Ashok Path, Ranchi 834001</div>
                             </div>
                         </div>
 

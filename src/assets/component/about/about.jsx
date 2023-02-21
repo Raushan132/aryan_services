@@ -17,14 +17,14 @@ const about = () => {
 
             <div className=" w-full overflow-hidden md:p-16 p-4 bg-gray-200 ">
 
-                <div data-aos="fade-down" className="flex flex-col items-center mb-16" >
+                <div  className="flex flex-col items-center mb-16" >
                     <h1 className=" text-lg md:text-xl lg:text-2xl p-8 text-indigo-400  font-extrabold">WHO WE <span className='text-red-400'>ARE! </span></h1>
 
                 </div>
 
                 <div className="flex flex-col md:items-center  gap-32 ">
 
-                    <div data-aos="fade-up" data-aos-duration="1000" className="bg-gradient-to-br from-yellow-400  to-pink-400 flex flex-col md:w-[700px] lg:w-[500px] justify-center shadow-lg shadow-black px-20 py-20  lg:-ml-96 ">
+                    <div  className="bg-gradient-to-br from-yellow-400  to-pink-400 flex flex-col md:w-[700px] lg:w-[500px] justify-center shadow-lg shadow-black px-12 md:px-20 py-20  lg:-ml-96 ">
 
                         <div className="text-white font-bold text-lg md:text-xl lg:text-2xl underline">The Company:</div>
                         <div className="translate-x-10 text-md md:text-lg translate-y-5 text-white">
@@ -56,10 +56,10 @@ const about = () => {
                         </div>
                     </div>
 
-                    <div data-aos="fade-up" data-aos-duration="1000" className="bg-gradient-to-br from-yellow-400  to-pink-400 flex flex-col md:w-[700px] lg:w-[500px] justify-center shadow-lg shadow-black px-28 py-20  lg:-ml-96 ">
+                    <div data-aos="fade-up" data-aos-duration="1000" className="bg-gradient-to-br from-yellow-400  to-pink-400 flex flex-col md:w-[700px] lg:w-[500px] justify-center shadow-lg shadow-black px-12 md:px-28 py-20  lg:-ml-96 ">
 
                         <div className="text-white font-bold text-2xl underline">Our Vision:</div>
-                        <div className="text-white translate-x-10 translate-y-5">
+                        <div className="text-white md:translate-x-10 translate-y-5">
                             Our vision is to abide by our mission applying the following to principles:
                             <ul className='list-disc translate-x-10'>
                                 <li>Ensuring highest quality of service at all times.</li>

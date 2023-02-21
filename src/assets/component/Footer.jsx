@@ -7,16 +7,16 @@ const Footer = () => {
         <>
             <footer>
                 <div className="bg-black text-white grid md:grid-cols-3 lg:grid-cols-4  px-4  py-16 ">
-                    <div className=" ml-8  pr-12">
+                    <div className=" ml-4 md:ml-8  pr-12">
                         <div className=" mb-4">
-                            <img className="w-[100px]" src="images/Logo.png" alt="" />
+                            <img className="w-[100px] animate-spin-slow" src="images/Logo.png" alt="" />
                            </div>
                            <div className="text-xl  ">Aryan Services Limited</div>
                             <div className="">Vijay Bhawan, 2nd Floor, Radium Road, Ashok Path, Ranchi 834001</div>
                         
                        
                     </div>
-                    <div className="md:mx-12 ">
+                    <div className="mx-4 md:mx-12 ">
                         <div className=" my-3 font-extrabold ">Quick as</div>
                         <div className="font-thin">
                             <ul>
@@ -28,7 +28,7 @@ const Footer = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="  md:mx-4 lg:mx-8 xl-24">
+                    <div className=" mx-4 lg:mx-8 xl-24">
                         <div className="my-3  font-extrabold ">Get In Touch</div>
                         <div className="flex flex-col font-thin">
                             <a href="tel:+9194313 63109"><i className="  text-[13px] mr-2 fa-solid fa-phone"></i>+91 94313 63109</a>
@@ -40,7 +40,7 @@ const Footer = () => {
                     </div>
                     <div className="">
                         
-                        <div className="">
+                        <div className="mx-4">
                             <div className="my-3  font-extrabold">Aryan Services Limited Social as</div>
                             <a href=""><i className="md:text-[16x] md:text-[22px] fa-brands fa-facebook-f"></i></a>
                             <a href=""><i className="md:text-[16x] md:text-[22px] mx-3 fa-brands fa-twitter"></i></a>

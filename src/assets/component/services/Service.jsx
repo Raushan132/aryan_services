@@ -17,8 +17,8 @@ const service = () => {
           
             <div className=" w-full overflow-hidden md:p-16 p-4  ">
 
-            <div data-aos="fade-down" className="flex flex-col items-center mb-16" >
-                    <h1 className=" text-lg md:text-xl lg:text-2xl p-8 text-indigo-400  font-extrabold">WHAT WE <span className='text-red-400'>GIVE! </span></h1>
+            <div  className="flex flex-col items-center mb-16" >
+                    <h1 className=" text-lg md:text-xl lg:text-2xl p-8 text-indigo-400  font-extrabold">WHAT WE <span className='text-red-400'>PROVIDE! </span></h1>
 
                 </div>
               

@@ -1,12 +1,33 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import { Link } from 'react-router-dom'
 import SwapClient from '../client/SwapClient'
 
+
 const home = () => {
+
+  
+
+
   return (
     <>
-      <div className="p-8"></div>
-      <div className="">
+      <div className="w-full overflow-hidden">
+          <div className=" left-10 md:left-28 relative top-20 md:top-28">
+            <div className="flex flex-col gap-2 ">
+              <span className='capitalize font-extrabold text-blue-400  md:text-2xl lg:text-6xl'>leading agency</span>
+              <span className='text-sm text-gray-500 w-1/2 md:w-1/4 lg:2xl'>Security Services, Transport & Travel Providers, Material Suppliers, Civil Suppliers, Building Maintainer....</span>
+              <Link to="/about" className='md:w-1/6 font-bold md:font-extrabold text-red-400 cursor-pointer lg:text-2xl'>Know More</Link>
+              </div>
+             
+          </div>
+           <div  className="flex justify-end md:-translate-y-20 relative -z-10">
+            <img className='w-1/2  md:mb-32 ' src="images/cartoon-1.png" alt=""/>
+          </div>
+          
+          <img className='absolute top-64 md:top-32 w-full -z-20' src="images/frame.png" alt=""/>
+
+
+      </div>
+      <div className="mt-24 ">
 
         <div className="text-center font-extrabold text-2xl"><span className='text-red-400 '>Our</span> <spna className='text-blue-500'>Services</spna></div>
 
