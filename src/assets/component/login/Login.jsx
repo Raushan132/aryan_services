@@ -1,6 +1,10 @@
 import React from 'react'
+import { Navigate } from 'react-router-dom'
 
 const Login = () => {
+
+    
+
     return (
         <>
             <div className="w-full overflow-hidden my-16">
