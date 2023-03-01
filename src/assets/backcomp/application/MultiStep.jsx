@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { handleLineStep,handleStep } from './MultiStepLogin'
+import { handleLineStep,handleStep } from './MultiStepLogic'
 
 const MultiStep = () => {
      const[step,setStep] = useState(1)
