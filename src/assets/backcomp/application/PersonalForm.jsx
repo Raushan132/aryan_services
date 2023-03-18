@@ -48,66 +48,66 @@ const PersonalForm = () => {
                 <form className='grid xl:grid-cols-2 gap-4'>
                     <div className='flex flex-col  '>
                         <label htmlFor="">Full Name:</label>
-                        <input type="text" name="fullName" onChange={formik.handleChange} value={formik.values.fullName} id="" className='border-2 border-gray-600' />
+                        <input type="text" name="fullName" onChange={formik.handleChange} value={formik.values.fullName} id="" className='border-2 border-gray-600 pl-2' />
                     </div>
                     <div className='flex flex-col '>
                         <label htmlFor="">Father's / Spouse Name:</label>
-                        <input type="text" name="f_sName" onChange={formik.handleChange} value={formik.values.f_sName} id="" className='border-2 border-gray-600' />
+                        <input type="text" name="f_sName" onChange={formik.handleChange} value={formik.values.f_sName} id="" className='border-2 border-gray-600 pl-2' />
                     </div>
                     <div className='flex flex-col '>
                         <label htmlFor="">Gender:</label>
                         <div className="flex gap-5">
-                            <span className='flex gap-1'> <input type="radio" name="gender" onChange={formik.handleChange}  defaultValue="Male" className='border-2 border-gray-600' />Male</span>
-                            <span className='flex gap-1'><input type="radio" name="gender" onChange={formik.handleChange} defaultValue="Femail" className='border-2 border-gray-600' />Female</span>
-                            <span className='flex gap-1'><input type="radio" name="gender" onChange={formik.handleChange}  defaultValue="Other" className='border-2 border-gray-600' />Other</span>
+                            <span className='flex gap-1'> <input type="radio" name="gender" onChange={formik.handleChange}  defaultValue="Male" className='border-2 border-gray-600 pl-2' />Male</span>
+                            <span className='flex gap-1'><input type="radio" name="gender" onChange={formik.handleChange} defaultValue="Femail" className='border-2 border-gray-600 pl-2' />Female</span>
+                            <span className='flex gap-1'><input type="radio" name="gender" onChange={formik.handleChange}  defaultValue="Other" className='border-2 border-gray-600 pl-2' />Other</span>
                         </div>
                     </div>
                     <div className='flex flex-col '>
                         <label htmlFor="">DOB:</label>
-                        <input type="date" name="dob" onChange={formik.handleChange} value={formik.values.dob} id="" className='border-2 border-gray-600' />
+                        <input type="date" name="dob" onChange={formik.handleChange} value={formik.values.dob} id="" className='border-2 border-gray-600 pl-2' />
                     </div>
                     <div className='flex flex-col '>
                         <label htmlFor="">Mobile:</label>
-                        <input type="text" name="mobile" onChange={formik.handleChange} value={formik.values.mobile} id="" className='border-2 border-gray-600' />
+                        <input type="text" name="mobile" onChange={formik.handleChange} value={formik.values.mobile} id="" className='border-2 border-gray-600 pl-2' />
                     </div>
                     <div className='flex flex-col '>
                         <label htmlFor="">Email:</label>
-                        <input type="text" name="email" onChange={formik.handleChange} value={formik.values.email} id="" className='border-2 border-gray-600' />
+                        <input type="text" name="email" onChange={formik.handleChange} value={formik.values.email} id="" className='border-2 border-gray-600 pl-2' />
                     </div>
                     <div className='flex flex-col '>
                         <label htmlFor="">Mark Of Identification:</label>
-                        <input type="text" name="identification" onChange={formik.handleChange} value={formik.values.identification} id="" className='border-2 border-gray-600' />
+                        <input type="text" name="identification" onChange={formik.handleChange} value={formik.values.identification} id="" className='border-2 border-gray-600 pl-2' />
                     </div>
                     <div className='flex flex-col '>
                         <label htmlFor="">Present Address:</label>
-                        <input type="text" name="preAddress" onChange={formik.handleChange} value={formik.values.preAddress} id="" className='border-2 border-gray-600' />
+                        <input type="text" name="preAddress" onChange={formik.handleChange} value={formik.values.preAddress} id="" className='border-2 border-gray-600 pl-2' />
                     </div>
                     <div className='flex flex-col '>
                         <label htmlFor="">Permanent Address:</label>
-                        <input type="text" name="perAddress" onChange={formik.handleChange} value={formik.values.perAddress} id="" className='border-2 border-gray-600' />
+                        <input type="text" name="perAddress" onChange={formik.handleChange} value={formik.values.perAddress} id="" className='border-2 border-gray-600 pl-2' />
                     </div>
                     <div className='flex flex-col '>
                         <label htmlFor="">Nationality:</label>
-                        <input type="text" name="nationality" onChange={formik.handleChange} value={formik.values.nationality} id="" className='border-2 border-gray-600' />
+                        <input type="text" name="nationality" onChange={formik.handleChange} value={formik.values.nationality} id="" className='border-2 border-gray-600 pl-2' />
                     </div>
                     <div className='flex flex-col '>
                         <label htmlFor="">Aadhar No:</label>
-                        <input type="text" name="aadhar" onChange={formik.handleChange} value={formik.values.aadhar} id="" className='border-2 border-gray-600' />
+                        <input type="text" name="aadhar" onChange={formik.handleChange} value={formik.values.aadhar} id="" className='border-2 border-gray-600 pl-2' />
                     </div>
                     <div className='flex flex-col '>
                         <label htmlFor="">Pan:</label>
-                        <input type="text" name="pan" onChange={formik.handleChange} value={formik.values.pan} id="" className='border-2 border-gray-600' />
+                        <input type="text" name="pan" onChange={formik.handleChange} value={formik.values.pan} id="" className='border-2 border-gray-600 pl-2' />
                     </div>
                     <div className='flex flex-col '>
                         <label htmlFor="">UNA no(EPF):</label>
-                        <input type="text" name="epf" onChange={formik.handleChange} value={formik.values.epf} id="" className='border-2 border-gray-600' />
+                        <input type="text" name="epf" onChange={formik.handleChange} value={formik.values.epf} id="" className='border-2 border-gray-600 pl-2' />
                     </div>
                     <div className='flex flex-col '>
                         <label htmlFor="">PI No(ESI):</label>
-                        <input type="text" name="esi" onChange={formik.handleChange} value={formik.values.esi} id="" className='border-2 border-gray-600' />
+                        <input type="text" name="esi" onChange={formik.handleChange} value={formik.values.esi} id="" className='border-2 border-gray-600 pl-2' />
                     </div>
-
-                    <div className='flex gap-16 justify-center'>
+                    <div></div>
+                    <div className=' flex gap-16 justify-end'>
 
                         <input type="submit" onClick={handleNext} value="Next" className='border-2 px-8 md:px-12 lg:px-16 bg-blue-300 border-gray-200  hover:bg-blue-400  cursor-pointer' />
                     </div>

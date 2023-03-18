@@ -31,7 +31,7 @@ const Header = () => {
                         <div className="px-4 py-2 lg:px-0 lg:py-0 flex justify-between bg-[url('images/header_design2.png')] lg:bg-[url('')] ">
                             <div className=" flex gap-5 lg:gap-10 justify-center items-center ">
                                 <div className=" "><img className='w-[80px] lg:w-[100px]' src="images/Logo.png" alt="logo" /></div>
-                                <div className=''>Aryan Service Limited</div>
+                                <div className=''>Aryan Services Limited</div>
                             </div>
 
                             <div className='py-4 text-3xl lg:hidden block' onClick={handleHamClick}>

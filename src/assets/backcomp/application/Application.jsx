@@ -3,6 +3,7 @@ import BankForm from './BankForm'
 import EducationForm from './EducationForm'
 import MultiStep from './MultiStep'
 import PersonalForm from './PersonalForm'
+import UploadFile from './UploadFile'
 
 export const Steps= createContext()
 
@@ -25,7 +26,7 @@ const Application = () => {
         {step===1 && <PersonalForm />}
         {step===2 && <BankForm />}
          {step===3 && <EducationForm />}
-         {step===4}
+         {step===4  && <UploadFile />}
       </Steps.Provider>
     </>
   )

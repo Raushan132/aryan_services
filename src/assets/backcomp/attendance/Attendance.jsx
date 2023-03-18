@@ -7,7 +7,7 @@ for(var i=1;i<=31;i++){
         
         name: i,
         
-        selector: () =>  <input type="checkbox" />,
+        selector: () =>  <input type="checkbox"  />,
         minWidth: 5,
         maxWidth:10,
         wrap:true
@@ -50,9 +50,7 @@ const Attendance = () => {
             <DataTable
                 columns={columns}
                 data={data}
-                
-                
-            />
+             />
         </>
     )
 }

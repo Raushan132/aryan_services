@@ -40,27 +40,27 @@ const BankForm = () => {
                     <form className='flex flex-col gap-4'>
                         <div className='flex flex-col  '>
                             <label htmlFor="">Bank Name:</label>
-                            <input type="text" name="bankName" onChange={formik.handleChange} value={formik.values.bankName}id="" className='border-2 border-gray-600' />
+                            <input type="text" name="bankName" onChange={formik.handleChange} value={formik.values.bankName} id="" className='border-2 border-gray-600 pl-2' />
                         </div>
                         <div className='flex flex-col '>
                             <label htmlFor="">Account Number:</label>
-                            <input type="text" name="accountNo" onChange={formik.handleChange} value={formik.values.accountNo} id="" className='border-2 border-gray-600' />
+                            <input type="text" name="accountNo" onChange={formik.handleChange} value={formik.values.accountNo} id="" className='border-2 border-gray-600 pl-2' />
                         </div>
 
                         <div className='flex flex-col '>
                             <label htmlFor="">Branch:</label>
-                            <input type="text" name="branch" onChange={formik.handleChange} value={formik.values.branch} id="" className='border-2 border-gray-600' />
+                            <input type="text" name="branch" onChange={formik.handleChange} value={formik.values.branch} id="" className='border-2 border-gray-600 pl-2' />
                         </div>
                         <div className='flex flex-col '>
                             <label htmlFor="">IFSC:</label>
-                            <input type="text" name="ifsc" onChange={formik.handleChange} value={formik.values.ifsc} id="" className='border-2 border-gray-600' />
+                            <input type="text" name="ifsc" onChange={formik.handleChange} value={formik.values.ifsc} id="" className='border-2 border-gray-600 pl-2' />
                         </div>
 
                         <div className='flex flex-col '>
                             <label htmlFor="">Type Of Account:</label>
                             <div className="flex gap-5">
-                                <span className='flex gap-1'> <input type="radio" name="accountType" onChange={formik.handleChange} defaultValue="SAVING" className='border-2 border-gray-600' />SAVING</span>
-                                <span className='flex gap-1'><input type="radio" name="accountType" onChange={formik.handleChange} defaultValue="CURRENT" className='border-2 border-gray-600' />CURRENT</span>
+                                <span className='flex gap-1'> <input type="radio" name="accountType" onChange={formik.handleChange} defaultValue="SAVING" className='border-2 border-gray-600 pl-2' />SAVING</span>
+                                <span className='flex gap-1'><input type="radio" name="accountType" onChange={formik.handleChange} defaultValue="CURRENT" className='border-2 border-gray-600 pl-2' />CURRENT</span>
                             </div>
                         </div>
 

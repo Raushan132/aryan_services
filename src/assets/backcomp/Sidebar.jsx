@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import {AiFillDashboard,AiOutlineForm,AiOutlineCheckSquare,AiFillMessage,AiOutlineLogout} from 'react-icons/ai';
 import {HiOutlineNewspaper} from 'react-icons/hi'
-import {BsClipboardData} from 'react-icons/bs'
+import {BsClipboardData,BsListCheck} from 'react-icons/bs'
 import {CgWebsite} from 'react-icons/cg'
 import { Link } from 'react-router-dom';
 
@@ -44,6 +44,7 @@ const Sidebar = () => {
               <li className='w-full flex flex-col  text-md md:text-xl'>
                 <Link  className="w-full px-8 py-2  md:text-start hover:bg-gray-500 flex items-center gap-2" to="/dashboard"><AiFillDashboard />Dashboard</Link >
                 <Link className="w-full px-8 py-2  md:text-start hover:bg-gray-500 flex items-center gap-2" to="/application"><AiOutlineForm />Application Form</Link>
+                <Link className="w-full px-8 py-2  md:text-start hover:bg-gray-500 flex items-center gap-2" to="/employeeList"><BsListCheck />Empolyee List</Link>
                 <Link className="w-full px-8 py-2  md:text-start hover:bg-gray-500 flex items-center gap-2" to="/attendance"><AiOutlineCheckSquare />Attendance</Link>
                 <a className="w-full px-8 py-2  md:text-start hover:bg-gray-500 flex items-center gap-2" href=""><HiOutlineNewspaper />Bill</a>
                 <a className="w-full px-8 py-2  md:text-start hover:bg-gray-500 flex items-center gap-2" href=""><AiFillMessage />Message List</a>
