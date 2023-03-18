@@ -26,23 +26,23 @@ const Header = () => {
                 </div>
 
 
-                <div className="bg-green-500 text-white font-bold text-lg xl:text-xl overflow-hidden">
-                    <div className=" xl:p-2 lg:px-8 flex flex-col lg:flex-row lg:justify-between lg:items-center lg:bg-[url('images/header_design2.png')] bg-cover ">
-                        <div className="px-4 py-2 lg:px-0 lg:py-0 flex justify-between bg-[url('images/header_design2.png')] lg:bg-[url('')] ">
-                            <div className=" flex gap-5 lg:gap-10 justify-center items-center ">
-                                <div className=" "><img className='w-[80px] lg:w-[100px]' src="images/Logo.png" alt="logo" /></div>
+                <div className="bg-blue-50 text-black font-bold text-md lg:text-lg xl:text-xl overflow-hidden">
+                    <div className="  md:px-4 flex flex-col md:flex-row md:justify-between md:items-center  ">
+                        <div className="px-4 py-2 lg:px-16 lg:py-2 flex justify-between  ">
+                            <div className=" flex gap-3 lg:gap-5 justify-center items-center ">
+                                <div className=" "><img className='w-[50px] xl:w-[80px]' src="images/Logo.png" alt="logo" /></div>
                                 <div className=''>Aryan Services Limited</div>
                             </div>
 
-                            <div className='py-4 text-3xl lg:hidden block' onClick={handleHamClick}>
+                            <div className='py-4 text-3xl md:hidden block' onClick={handleHamClick}>
                                 {!hamburger ? <i className="fa-solid fa-bars"></i> : <i className="fa fa-close text-red-500"></i>}
                             </div>
                         </div>
 
 
-                        <div className="bg-gradient-to-tr from-green-500 to-green-600 ">
+                        <div className="">
 
-                            <ul className={`${hamburger ? "": "h-0"} transition flex flex-col lg:flex-row items-center   gap-5 xl:gap-10`}>
+                            <ul className={`${hamburger ? "": "h-0"} transition flex flex-col md:flex-row items-center font-semibold md:pr-4   gap-5 xl:gap-10`}>
                                 <li><NavLink className={({isActive})=> {return isActive?'border-b-2 border-blue-400 text-blue-500':''}} onClick={handleLinkHamClick} to="/home">Home</NavLink></li>
                                 <li><NavLink className={({isActive})=> {return isActive?'border-b-2 border-blue-400 text-blue-500':''}} onClick={handleLinkHamClick} to="/services">Services</NavLink></li>
                                 <li><NavLink className={({isActive})=> {return isActive?'border-b-2 border-blue-400 text-blue-500':''}} onClick={handleLinkHamClick} to="/client">Clients</NavLink></li>

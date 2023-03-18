@@ -14,7 +14,7 @@ const home = () => {
           <div className=" left-10 md:left-28 relative top-20 md:top-28">
             <div className="flex flex-col gap-2 ">
               <span className='capitalize font-extrabold text-blue-400  md:text-2xl lg:text-6xl'>leading agency</span>
-              <span className='text-sm text-gray-500 w-1/2 md:w-1/4 lg:2xl'>Security Services, Transport & Travel Providers, Material Suppliers, Civil Suppliers, Building Maintainer....</span>
+              <span className='text-sm text-gray-500 w-1/2 md:w-1/4 lg:2xl'>of Security Services, Transport Provider, Material Supplier, Civil Supplier, building maintainer, Labour Supplier including Skilled and Unskilled Technician, Clerical Staff, Computer Operator etc....</span>
               <Link to="/about" className='md:w-1/6 font-bold md:font-extrabold text-red-400 cursor-pointer lg:text-2xl'>Know More</Link>
               </div>
              
