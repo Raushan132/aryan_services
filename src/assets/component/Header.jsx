@@ -60,8 +60,6 @@ const Header = () => {
 
             </div>
          
-
-
         </>
     )
 }

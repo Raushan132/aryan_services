@@ -35,7 +35,7 @@ const UploadFile = () => {
 
   return (
     <>
-      <div className="mx-16 px-32 py-8 shadow-lg shadow-black">
+      <div className="mx-16 px-32 py-8 shadow-md">
                 <div></div>
                 <div>
 

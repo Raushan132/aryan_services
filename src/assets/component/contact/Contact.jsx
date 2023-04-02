@@ -25,7 +25,7 @@ const Contact = () => {
 
                 <div className="">
 
-                    <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3 mx-16 ">
+                    <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3 mx-16 place-items-center">
                         <div className="">
                             <div className="text-xl font-bold">Head Office Address:</div>
                             <div className="flex  gap-3">

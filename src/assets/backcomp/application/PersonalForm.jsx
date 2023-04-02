@@ -43,8 +43,8 @@ const PersonalForm = () => {
     return (
         <>
 
-            <div className="md:mx-16 px-8  lg:px-32 py-8 shadow-lg shadow-black">
-                <div className="text-center text-xl font-bold underline">Personal Detail</div>
+            <div className="md:mx-16 px-8  lg:px-32 py-8 ">
+                <div className="text-center text-xl font-bold underline">Personal Detail</div><br/>
                 <form className='grid xl:grid-cols-2 gap-4'>
                     <div className='flex flex-col  '>
                         <label htmlFor="">Full Name:</label>

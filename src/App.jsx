@@ -40,11 +40,7 @@ function App() {
           <Route path="/contact" element={<Contact />}/>
           <Route path="/login" element={<Login />}/>
           <Route path="*" element={<Error />}/>
-            
-
-
-           
-             {/* for Authenticated user
+           {/* for Authenticated user
             <Route path="/admin/*" element={<Admin />} /> */}
         </Routes>
 
